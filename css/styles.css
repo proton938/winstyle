@@ -1,0 +1,16 @@
+.next_back
+	{
+		position: fixed; 
+		top: 50%;  
+		z-index: 2;
+	}
+	
+.basic_button
+	{
+		background: #eee;
+		border: solid 2px #999;
+		font-size: 20px;
+		color: #999;
+		padding: 10px 15px 10px 15px;
+		border-radius: 100%;		
+	}

@@ -1,0 +1,23 @@
+<head>
+	<link href = "css/styles.css" rel = "stylesheet"  type = "text/css" media = "all">
+	<script type="text/javascript" src = "js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src = "js/scripts.js"></script>
+</head>
+<body onload = "start_load()">
+	<center>
+	<div id = "waiting" style = "position: fixed; width: 100%; top: 50%; margin-top: -150px;">
+		<img src = "images/waiting.gif" style = "width: 400px;" >
+	</div>
+	<div id = "load_all" style = "display: none;">
+		<input id = "display_all_image" type = "hidden" style = "position: fixed; top: 10px; z-index: 3;">
+		<input id = "display_current_page" type = "hidden" style = "position: fixed; top: 50px; z-index: 3;">
+		<input id = "display_all_page" type = "hidden" style = "position: fixed; top: 90px; z-index: 3;">
+		
+		<input type = "button" id = "to_next" value = ">" class = "next_back basic_button" style = "right: 10px;" onclick = "next_page()" >
+		<input type = "button" id = "to_back" value = "<" class = "next_back basic_button" style = "left: 10px;" onclick = "back_page()" >
+		
+		<div id = "monitor" >
+		</div>
+	</div>
+	</center>
+</body>
